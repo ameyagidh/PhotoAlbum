@@ -2,52 +2,34 @@
 
 Youtube Video Link https://youtu.be/gvLs8VI4-dM
 
-Photo album is a project made in java which uses swing and html to build a swing view and a web view. 
+Photo album is a project made in java which uses swing and html, Css to build a swing (Graphical) view and a web view. 
+PhotoAlbum uses the concepts of Object Oriented programming such as 
+A) SOLID 
+1. Single Responsibility
+2. Open/Closed
+3. Liskov Substitution
+4. Interface Segregation
+5. Dependency Inversion
 
-To run the project use command line arguments as 
--in resources/buildings.txt -v web -out buildingsOut.html 1000 1000
-(-in resorces/(inputfile.txt) -v (graphical/web) (outputfilename.html) size of screen)
-# Slide - Puzzle Game
+B) (MVC) Model View Controller (Model-View-Controller Pattern is also known as the MVC pattern. This pattern is employed to divide the concerns of an application. Model - Model depicts a data-carrying object or Java POJO. Additionally, if its data changes, it may have logic to update the controller. View - View is a representation of how the model's data is visualized.)
 
-Start the game 
-Load a splash screen which has the splash image present in the resources file
-I wanted a plain whit background for the puzzle hence included a1.gif file
+C) Inheritance (A new class can be derived from an existing class by inheritance. In Java, classes may inherit or acquire the properties and methods of other classes. A subclass is a class that has been derived from another class, whereas a superclass is a class from which a subclass has been derived.)
 
-After 3 seconds time (using the time library) the screen is changed and the user is prompted to 
-add his name and moves [5 to 200]
-error messages if any are written here or a message is printed to the screen
+D) Abstract classes (A class that has been declared abstract is one that may or may not have abstract methods. Although they cannot be created from scratch, abstract classes can be subclassed. When a subclass of an abstract class is created, it typically offers implementations for each of the parent class's abstract methods.) and 
 
-The Board is drawn, player moves and leaders are plotted using the turtle library
-The Quit, Reset and Load images are added and the coordinates of these images are mapped
-to the conditions in get_click function which acts according to the input (x,y) values
+E) Interfaces (a collection of methods and constant variables are contained in an abstract type.)
 
-The default file loaded is mario.Images are plotted as objects of class images on the screen
-with each image having the image name and coordinates as attributes.
- 
-These objects are appended to a list and when an object is clicked and it
-matches the is_neighbour function the image is swapped with the blank image and 
-these chnages are reflected in the list as well.
+Start the project
 
-The images can be moved within the board play area. If the user finishes the game within 
-the number of moves available then the player wins else the player has lost 
-
-The player can choose from the load files resent if the file is not present then 
-it results in reprompting the user for the right file name.
-
-The player can use Quit button anytime to exit the game
-
-The Reset button is a cheat which enables the user to get the puzzle to the right formation and thus help win win the game
-
-There is a 5001_puzzle_err.txt file for appending the errors encountered during execution of the program
 ## Installation
-Install my-project 
+Clone the repository as git clone https://github.com/ameyagidh/PhotoAlbum.git
 
 ### Requirements:-
 
- 1. Python (Version 3.7 and higher)
- 2. Python integrated development environment (IDE) preffered(Pycharm).
+ 1. Java (Version 16 or higher)
+ 2. Java integrated development environment (IDE) preffered(Intellij).
  3. Unzip the file "fall_2021_final_project".
- 4. Run the file puzzle_game.py.
+ 4. Run the file PhotoAlbumMain.java.
 
 ## Screenshots:-
 ![Shapesgif](https://user-images.githubusercontent.com/65457905/190865625-27cd4fe2-de7f-457c-80da-a049c8f83c31.gif)
