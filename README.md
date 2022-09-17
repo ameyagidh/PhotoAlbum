@@ -4,7 +4,7 @@
 
 Youtube Video Link https://youtu.be/gvLs8VI4-dM
 
-Photo album is a project made in java which uses swing and html, Css to build a swing (Graphical) view and a web view. 
+Photo album is a project made in java which uses swing and html, Css to build a swing (Graphical) view and a web view. A text file, type of view web or graphical, output file(For web view) and the dimensions are the input. As an output we see the photoAlbum made by using the given text file input.
 PhotoAlbum uses the concepts of Object Oriented programming such as 
 A) SOLID 
 1. Single Responsibility
@@ -31,9 +31,13 @@ Clone the repository as git clone https://github.com/ameyagidh/PhotoAlbum.git
  1. Java (Version 16 or higher)
  2. Java integrated development environment (IDE) preffered(Intellij).
  3. Unzip the file "fall_2021_final_project".
- 4. Run the file PhotoAlbumMain.java.
+ 4. Run the file PhotoAlbumMain.java by giving the desired configurations as inputs such as :- -in resources/face_sun.txt -v web -out Face.html 1000 1000.
 
 ## Screenshots:-
+#### Gif of the graphical view using difffernet input text files.
 ![Shapesgif](https://user-images.githubusercontent.com/65457905/190865625-27cd4fe2-de7f-457c-80da-a049c8f83c31.gif)
 ![PlayGroundgif](https://user-images.githubusercontent.com/65457905/190865626-3665a229-449b-4678-9d1f-9c7ad111319b.gif)
 ![Buildingsgif](https://user-images.githubusercontent.com/65457905/190865628-bbba8e8d-a3ab-4f3e-bbe5-cb2bc0c856e9.gif)
+
+![FaceGraphicalView](https://user-images.githubusercontent.com/65457905/190865443-5b1983bc-d3ea-4c5a-aa35-83124f5be14c.PNG)
+![FaceWebView](https://user-images.githubusercontent.com/65457905/190865444-15169dc5-ccff-4055-89b2-fcebced0f5e5.PNG)
