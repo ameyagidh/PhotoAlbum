@@ -1,9 +1,5 @@
 # PhotoAlbum
 
-## Demo On Youtube
-
-Youtube Video Link https://youtu.be/gvLs8VI4-dM
-
 Photo album is a project made in java which uses swing and html, Css to build a swing (Graphical) view and a web view. A text file, type of view web or graphical, output file(For web view) and the dimensions are the input. As an output we see the photoAlbum made by using the given text file input.
 PhotoAlbum uses the concepts of Object Oriented programming such as 
 A) SOLID 
@@ -21,7 +17,9 @@ D) Abstract classes (A class that has been declared abstract is one that may or 
 
 E) Interfaces (a collection of methods and constant variables are contained in an abstract type.)
 
-Start the project
+## Demo On Youtube
+
+Youtube Video Link https://youtu.be/gvLs8VI4-dM
 
 ## Installation
 Clone the repository as git clone https://github.com/ameyagidh/PhotoAlbum.git
@@ -39,5 +37,7 @@ Clone the repository as git clone https://github.com/ameyagidh/PhotoAlbum.git
 ![PlayGroundgif](https://user-images.githubusercontent.com/65457905/190865626-3665a229-449b-4678-9d1f-9c7ad111319b.gif)
 ![Buildingsgif](https://user-images.githubusercontent.com/65457905/190865628-bbba8e8d-a3ab-4f3e-bbe5-cb2bc0c856e9.gif)
 
+### Graphical View for face_sun.txt
 ![FaceGraphicalView](https://user-images.githubusercontent.com/65457905/190865443-5b1983bc-d3ea-4c5a-aa35-83124f5be14c.PNG)
+### Web View for face_sun.txt
 ![FaceWebView](https://user-images.githubusercontent.com/65457905/190865444-15169dc5-ccff-4055-89b2-fcebced0f5e5.PNG)
