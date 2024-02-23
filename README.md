@@ -23,6 +23,13 @@ Youtube Video Link https://youtu.be/gvLs8VI4-dM
 
 ## Installation
 Clone the repository as git clone https://github.com/ameyagidh/PhotoAlbum.git
+edit configurations like this 
+
+1. For Web View
+-in buildings.txt -v web -out buildings.html 1000 1000
+
+2. For Graphical View
+-in playground.txt -v graphical -out 1000 1000
 
 ### Requirements:-
 
