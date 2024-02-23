@@ -31,6 +31,10 @@ Clone the repository as git clone https://github.com/ameyagidh/PhotoAlbum.git
  3. Unzip the file "fall_2021_final_project".
  4. Run the file PhotoAlbumMain.java by giving the desired configurations as inputs such as :- -in resources/face_sun.txt -v web -out Face.html 1000 1000.
 
+## UML
+![UML](https://github.com/ameyagidh/PhotoAlbum/assets/65457905/1803a23a-7983-4114-b8f1-30032252f28f)
+
+
 ## Screenshots:-
 #### Gif of the graphical view using difffernet input text files.
 ![Shapesgif](https://user-images.githubusercontent.com/65457905/190865625-27cd4fe2-de7f-457c-80da-a049c8f83c31.gif)
