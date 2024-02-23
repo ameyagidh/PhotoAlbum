@@ -6,9 +6,6 @@ import model.AlbumModel;
 import view.SVGView;
 import view.SwingView;
 
-// -in buildings.txt -v web -out buildings.html 1000 1000
-// -in playground.txt -v graphical -out 1000 1000
-
 /**
  * The type Main.
  */
